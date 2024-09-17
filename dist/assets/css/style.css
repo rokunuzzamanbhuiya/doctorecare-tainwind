@@ -554,9 +554,8 @@ video {
   --tw-contain-style:  ;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.font-primary {
+  font-family: DM Sans, sans-serif;
 }
 
 .text-2xl {
@@ -568,14 +567,9 @@ video {
   font-weight: 700;
 }
 
-.text-red-600 {
+.text-brand-green {
   --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
-}
-
-.text-red-300 {
-  --tw-text-opacity: 1;
-  color: rgb(252 165 165 / var(--tw-text-opacity));
+  color: rgb(0 133 111 / var(--tw-text-opacity));
 }
 
 .underline {

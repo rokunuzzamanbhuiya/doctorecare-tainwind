@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doctor Care Tailwind</title>
 
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/img/fav-icon.png">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,11 +21,50 @@
 
 </head>
 
-<body>
-    <h1 class="text-2xl font-primary font-bold underline text-brand-green">
-        Hello world!
-    </h1>
-    <i class="ri-arrow-right-line"></i>
+<body class="bg-green-light-02 overflow-x-hidden">
+
+    <!-- header area start -->
+    <header id="header" class="bg-[#DCE9E2] text-brand-green fixed top-0 right-0 left-0 w-full z-50">
+        <nav class="container max-w-screen-xl mx-auto flex justify-between items-center p-4">
+            <!-- logo -->
+            <div class="text-xl font-bold">
+                <a href="/" class="text-black">Doctor<span class="text-brand-green">Care</span></a>
+            </div>
+    
+            <!-- menu item -->
+            <ul class="hidden md:flex space-x-8">
+                <li>
+                    <a href="#home" class="hover:text-brand-green">Home</a>
+                </li>
+                <li>
+                    <a href="#services" class="hover:text-brand-green">Service</a>
+                </li>
+                <li>
+                    <a href="#about" class="hover:text-brand-green">About</a>
+                </li>
+                <li>
+                    <a href="#contact" class="hover:text-brand-green">Contact</a>
+                </li>
+            </ul>
+    
+            <!-- call to action btn -->
+            <div class="hidden md:block">
+                <a id="contact-btn" href="#contact"
+                    class="md:w-56 text-brand-green hover:text-white border border-brand-green px-6 py-2.5 rounded-full hover:bg-brand-green transition-all duration-200 md:flex items-center justify-center">Take Appointment</a>
+            </div>
+    
+            <!-- mobile nav bar -->
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="navbar-burger flex items-center p-3">
+                    <img src="./assets/img/menu-icon.svg" alt="menu icon" class="block h-4 w-4 fill-current" />
+                </button>
+            </div>
+        </nav>
+
+    </header>
+    <!-- header area end -->
+
+
 </body>
 
 </html>
